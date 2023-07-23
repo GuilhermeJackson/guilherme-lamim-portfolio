@@ -5,8 +5,8 @@ function TitleSubtitleText() {
     <div className='al-title-wrapper'>
       <div className='al-title'>
         <h2>
-          <span>Guila</span>
-          <span>Tech</span>
+          <span>Guilherme</span>
+          <span>Lamim</span>
         </h2>
       </div>
       <div className='al-subtitle'>
