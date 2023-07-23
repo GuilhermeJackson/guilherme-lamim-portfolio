@@ -1,0 +1,41 @@
+@import '../../styles/global-variables.less';
+
+.who-receiver-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: @margin-text-bottom;
+}
+
+.who-receiver-list-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: @margin-text-bottom;
+  margin-bottom: @margin-text-bottom;
+
+  .who-receiver-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: @transparent-grey-cards;
+    border: @border-color-light;
+    border-radius: @border-radius;
+    padding: 24px;
+    background: @transparent-grey-cards;
+
+    h2 {
+      color: @primary-color;
+    }
+
+    .who-receiver-list-description {
+      margin-bottom: @margin-text-bottom;
+    }
+  }
+}
+
+
+@media (max-width: 576px) {}
+
+@media (min-width: 577px) and (max-width: 768px) {}

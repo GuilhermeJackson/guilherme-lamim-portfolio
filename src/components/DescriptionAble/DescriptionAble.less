@@ -1,0 +1,55 @@
+@import '../../styles/global-variables.less';
+
+.able-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: @margin-text-bottom *3;
+
+  .able-resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: @background-transparent-cards;
+    border: @border-color-light;
+    border-radius: @border-radius;
+    padding: @padding-all-button;
+
+    p,
+    ul,
+    li {
+      font-size: 18px;
+    }
+
+
+
+    button {
+      margin-top: @margin-text-bottom;
+    }
+  }
+}
+
+.able-arrow-flex {
+  span {
+    margin-left: 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  .able-container {
+    display: flex;
+    flex-direction: column;
+
+    .able-resume {
+      padding: 24px;
+    }
+  }
+
+ 
+}
+
+@media (min-width: 577px) and (max-width: 768px) {}

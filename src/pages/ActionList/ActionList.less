@@ -1,0 +1,93 @@
+@import '../../styles/global-variables.less';
+
+body {
+  justify-content: center;
+  align-items: center;
+}
+
+.al-container {
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/img/action-page/background-setup.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(0.7) grayscale(85%) blur(2px);
+    z-index: -1;
+  }
+}
+
+.al-list-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.al-list-buttons,
+a {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: @secundary-color;
+
+  .al-item-button {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+    background-color: @background-transparent-cards;
+    margin-top: @margin-text-bottom;
+    padding-inline: 25px;
+    padding-block: 20px;
+    border-radius: @border-radius;
+    border-top: 2px solid @primary-color;
+
+    &::before {
+      filter: blur(2px);
+    }
+  }
+
+  .al-item-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: @text-perple;
+    cursor: pointer;
+  }
+
+  .al-icon-button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+@media (max-width: 576px) {
+  
+  .al-container {
+    height: 95%;
+    align-items: start;
+  }
+
+  .al-icon-button {
+    padding-right: 10px;
+  }
+
+  .al-list-buttons,
+  a {
+    width: 95%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+
+  .al-list-buttons,
+  a {
+    width: 90%;
+  }
+}
