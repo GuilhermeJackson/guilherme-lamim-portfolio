@@ -1,6 +1,6 @@
 
 export const descriptionAble = {
-    title: 'Hábilidades',
+    title: 'Hard skills',
     list: [
         'React / Typescript',
         'Angular / Typescript',
@@ -10,56 +10,38 @@ export const descriptionAble = {
         'Testes de integração com Cypress',
         'Biblioteca eCharts',
         ' Azure DevOps',
-        
+
 
     ],
     resume1: "Formado em Sistemas de Informação em 2022, pela Uniasselvi, onde tive meu" +
         " primeiro contato com tecnologia.",
     resume2: "Em 2019 iniciei o curso de formação de desenvolvimento" +
         " Android e iOS pela Proway, como parte do programa Padawan da AmbevTech.",
-    resume3: "Trabalhei por 2 anos como front-end na maior e mais complexa cervejaria do mundo, a Ambev, que me " +
+    resume3: "Trabalhei por 3 anos como front-end na maior e mais complexa cervejaria do mundo, a Ambev, que me " +
         "permitiu pôr em prática todo conhecimento adquirido na faculdade e foi de grande importância " +
         " para o desenvolvimento das minhas habilidades técnicas e comunicação."
 }
 
 export const providerService = {
-    title: 'O que podemos fazer por você',
+    title: 'Meus Artigos',
     listService: [
         {
-            title: 'Sites Institucionais',
-            subtitle: 'Divulga informações da empresa, como produtos, serviços, valores e missão',
-            description: 'Para empresas que desejam se diferenciar da concorrência e ter presença digital com uma página personalizada'
+            title: 'Abstract Factory',
+            subtitle: 'Você já ouvir falar sobre Abstract Factory?',
+            description: 'Abstract Factory é um design patterns que fornece uma interface para criar conjuntos de objetos relacionados sem especificar sua classes concretas.',
+            url: 'https://www.linkedin.com/pulse/abstract-factory-guilherme-lamim/?trackingId=sapLpfNTTMCdJ3SX%2BhzrnQ%3D%3D'        
         },
         {
-            title: 'Sites One Page',
-            subtitle: 'Página única, como um site institucional, porém mais básico, funcional e prático',
-            description: 'Todas as informações são colocadas uma abaixo da outra, o que favorece agilidade e facilidade na navegação'
-        },
-        {
-            title: 'Sites E-commerces',
-            subtitle: 'Exclusivamente para vendas online.',
-            description: 'Sua empresa garante uma estrutura de vendas automática, direciona o usuário a uma compra de um produto ou serviço de forma prática'
-        },
-        {
-            title: 'Aplicativos Mobile',
-            subtitle: 'Aplicações para celulares e tablets',
-            description: 'Não fique de fora: Atualmente 70% dos acessos a internet é feita através do celular'
-        },
-        {
-            title: 'Manutenção no seu sistema',
-            subtitle: 'Alterações em sites já existentes',
-            description: 'Ta afim de alterar aquela cor daquele botão ou fazer aquela funcionalidade que o usuário vai pedir biz? '
-        },
-        {
-            title: 'Outsourcing',
-            subtitle: 'Um time inteiro de tecnologia para projetos grandes e complexos',
-            description: 'Monte sua equipe ou contrate talentos especificos  de diversos níveis e áreas como Dev Back-end, Front-end, scrum master, arquitetos, devops, tech leader e design'
+            title: 'Complexidade ciclomática',
+            subtitle: '"The Complexity Measure" de Thomas J. McCabe',
+            description: 'Esse conceito fornece uma métrica para quantificar a complexidade estrutural de um programa.',
+            url: 'https://www.linkedin.com/pulse/complexidade-ciclom%25C3%25A1tica-guilherme-lamim/?trackingId=sapLpfNTTMCdJ3SX%2BhzrnQ%3D%3D'
         },
     ]
 }
 
 export const whoReceiverService = {
-    title: 'Para quem são os serviços?',
+    title: 'Portfólio',
     listReceive: [
         {
             title: 'E-commerces',
@@ -96,12 +78,16 @@ export const aboutMe = {
 }
 
 export const PositiveService = {
-    title: 'A Guila Tech está pronta para ajudar sua empresa a alcançar o seu potencial máximo',
+    title: 'Soft skills ',
     listPositive: [
-        'Expertise em variadas tecnologias e tipos de projetos',
-        'Pensamos nos softwares para que eles façam o trabalho duro, a ideia é você ser guiado até o propósito de forma próativa',
-        'Ousar é trazer a modernidade e buscar o fator UAU! Os designs são pensados para surpreender as expectativas do ínicio ao fim',
-        'Sempre buscando novidades, os softwares são arquitetados utilizando a tecnologia que será a melhor solução para a sua necessidade',
-        'Aumente a escala e produtividade da sua equipe'
+        'Crio um ambiente de trabalho positivo, incentivando a colaboração entre colegas',
+        'Ser adaptável é fundamental em um ambiente de rápida evolução tecnológica',
+        'Minha colaboração com colegas torna o desenvolvimento mais eficiente e produtivo',
+        'Ter empatia me ajuda a entender as dificuldades dos usuários finais',
+        'Flexibilidade me permite lidar com mudanças de requisitos de forma tranquila',
+        'Iniciativa é fundamental para propor melhorias no processo de desenvolvimento',
+        'Resiliência me permite enfrentar desafios e aprender com os fracassos',
+        'Acredito que feedback é fundamental para um ambiente de trabalho saudável e estou sempre aberto a críticas construtivas para melhorar minhas habilidades de programação',
+        'Respeito a diversidade e valorizo as diferentes perspectivas'
     ]
 }

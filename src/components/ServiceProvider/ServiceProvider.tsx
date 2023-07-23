@@ -1,16 +1,15 @@
-import { ContactEnum } from '../../models/enum/whats';
 import Button from '../Button/Button'
 import './ServiceProvider.less'
 
 
 interface ServiceProviderProps {
   title: string;
-  listProvider: { title: string, subtitle: string, description: string }[]
+  listProvider: { title: string, subtitle: string, description: string, url: string }[]
 }
 
 function ServiceProvider({ title, listProvider }: ServiceProviderProps) {
-  const handleWhatsAppClick = () => {
-    window.open(ContactEnum.whats, '_blank');
+  const handleWhatsAppClick = (url: string) => {
+    window.open(url, '_blank');
   };
   return (
     <div className='provider-container'>
@@ -31,7 +30,7 @@ function ServiceProvider({ title, listProvider }: ServiceProviderProps) {
               <span>{item.description}</span>
             </div>
             <div className='provider-list-button'>
-              <Button textButton={'Vamos nessa!'} handlerClick={handleWhatsAppClick} />
+            <Button textButton={'Ler artigo!'} handlerClick={() => handleWhatsAppClick(item.url)} />
             </div>
           </div>
         ))}

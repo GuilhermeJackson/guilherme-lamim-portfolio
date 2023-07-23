@@ -42,9 +42,9 @@ function Home() {
       <DescriptionPositiveService
         title={PositiveService.title}
         listPositive={PositiveService.listPositive} />
-      <WhoReceiverService
+      {/* <WhoReceiverService
         title={whoReceiverService.title}
-        listReceiver={whoReceiverService.listReceive} />
+        listReceiver={whoReceiverService.listReceive} /> */}
        
     </div>
   )

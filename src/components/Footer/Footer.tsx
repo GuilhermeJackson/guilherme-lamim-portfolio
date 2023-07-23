@@ -9,11 +9,11 @@ function Footer() {
       <div className='footer-wrapper'>
         <div className='footer interprise'>
           <div className='footer-logo'>
-            <span>Guila</span>
-            <span>Tech</span>
+            <span>Guilherme</span>
+            <span>Lamim</span>
           </div>
           <div className='footer-reserv-direct'>
-            <span>@Guila Tech - 2023</span>
+            <span>@Guilherme Lamim - 2023</span>
             <span>Todos os direios reservados.</span>
           </div>
         </div>
@@ -21,9 +21,9 @@ function Footer() {
           <a href='/home'>Politica de privacidade</a>
         </div>
         <div className='footer-talk-we'>
-          <span>Fale com a gente</span>
-          <a href={ContactEnum.whats}>Agendar um orçamento</a>
-          <a href={ContactEnum.whats}>Faça parte do time</a>
+          <span>Entre em contato</span>
+          <a href={ContactEnum.whats}>Whatsapp</a>
+          <a href={ContactEnum.linkedin}>Linkedin</a>
         </div>
       </div>
     </footer>
