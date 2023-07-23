@@ -67,8 +67,24 @@ a {
   }
 }
 
+.al-social-media {
+  display: flex;
+  gap: 25px;
+
+  .al-social-circle {
+    display: flex;
+    background-color: @primary-color;
+    border-radius: 50%;
+    width: 43px;
+    height: 43px;
+    align-items: center;
+    justify-content: center;
+    margin-top: @margin-text-bottom;
+  }
+}
+
 @media (max-width: 576px) {
-  
+
   .al-container {
     height: 95%;
     align-items: start;
