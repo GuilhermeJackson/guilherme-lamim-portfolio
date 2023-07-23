@@ -48,21 +48,21 @@ function Header() {
       <header className={`${isScrolled ? 'sticky' : 'header-top'}`}>
         <div className='header-wrapper'>
           <div className='header-logo'>
-            <span>Guila</span>
-            <span>Tech</span>
+            <span>Guilherme</span>
+            <span>Lamim</span>
           </div>
           <div className='header-contact'>
-            <div className='header-contact-button'>
-              <button onClick={handleWhatsAppClick}>Entrar em contato</button>
-            </div>
-            <div className='header-contact-icon'>
-              <GrContact size={25} color="#fff" />
+            <div className='header-list-part'>
+              <div className='header-part-item'>
+                
+              </div>
+              
             </div>
           </div>
         </div>
- <div className='header-row'></div>
+        <div className='header-row'></div>
       </header>
-     
+
     </div>
   )
 }

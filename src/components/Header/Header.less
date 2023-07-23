@@ -19,10 +19,11 @@ header {
     top: 0;
     left: 0;
     z-index: 3;
+}
 
-    .header-contact-icon {
-        display: none;
-    }
+.header-list-part {
+    display: flex;
+    gap: 25px;
 }
 
 .header-wrapper {
@@ -44,6 +45,9 @@ header {
     justify-content: space-around;
 
     .header-logo {
+        display: flex;
+        flex-direction: column;
+        line-height: 0.8;
 
         span {
             &:first-child {
@@ -80,6 +84,9 @@ header {
     }
 
     .header-logo {
+        display: flex;
+        flex-direction: column;
+        line-height: 0.8;
 
         span {
             &:first-child {
@@ -108,6 +115,10 @@ header {
             padding-inline: 10px;
             color: @secundary-color;
         }
+    }
+
+    .header-list-part {
+        display: none;
     }
 }
 
