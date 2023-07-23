@@ -31,11 +31,11 @@ body {
 .al-list-buttons,
 a {
   display: flex;
-  flex-direction: column;
   width: 100%;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: @secundary-color;
+  color: @primary-color;
 
   .al-item-button {
     display: grid;
@@ -46,7 +46,11 @@ a {
     padding-inline: 25px;
     padding-block: 20px;
     border-radius: @border-radius;
-    border-top: 2px solid @primary-color;
+    border-top: 2px solid @secundary-color;
+
+    span {
+      color: @primary-color;
+    }
 
     &::before {
       filter: blur(2px);
@@ -58,7 +62,12 @@ a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     color: @text-perple;
     cursor: pointer;
+
+    span {
+      color: @secundary-color;
+    }
   }
+
 
   .al-icon-button {
     display: flex;
@@ -67,13 +76,28 @@ a {
   }
 }
 
+.al-icon-social {
+  display: flex;
+  color: @primary-color;
+  &:hover {
+    color: @secundary-color;
+  }
+}
+
+.al-item-button {
+  &:hover .al-icon-button {
+    color: @secundary-color;
+  }
+}
+
 .al-social-media {
   display: flex;
   gap: 25px;
+  margin-bottom: 25px;
 
   .al-social-circle {
     display: flex;
-    background-color: @primary-color;
+    background-color: @secundary-color;
     border-radius: 50%;
     width: 43px;
     height: 43px;
@@ -81,6 +105,10 @@ a {
     justify-content: center;
     margin-top: @margin-text-bottom;
   }
+  .al-social-circle:hover {
+    background-color: @primary-color;
+  }
+  
 }
 
 @media (max-width: 576px) {

@@ -6,10 +6,6 @@ interface ButtonProps {
 }
 
 function Button(props: ButtonProps) {
-  // const handleWhatsAppClick = () => {
-  //   window.open(ContactEnum.whats, '_blank');
-  // };
-
   return (
     <div className='button-container'>
       <button onClick={props.handlerClick}>
