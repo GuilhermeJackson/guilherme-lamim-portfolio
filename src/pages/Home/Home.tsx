@@ -15,8 +15,8 @@ import DescriptionPositiveService from '../../components/DescriptionPositiveServ
 import BannerCommercial from '../../components/BannerCommercial/BannerCommercial';
 
 function Home() {
-  const titleDescription = `Dedicados a oferecer soluções tecnológicas e inovadoras para empresas e empreendedores.`;
-  const subtitleDescription = `Desenvolvimento de software, websites, aplicativos e outsourcing.`
+  const titleDescription = `Guilherme Jackson Lamim`;
+  const subtitleDescription = `Meu propósito é criar soluções modernas e inovadoras para facilitar a vida dos usuários`
 
   return (
     <div className='home-container'>

@@ -10,9 +10,12 @@ function Button(props: ButtonProps) {
   const handleWhatsAppClick = () => {
     window.open(ContactEnum.whats, '_blank');
   };
+
   return (
     <div className='button-container'>
-      <button onClick={handleWhatsAppClick}><MdRocketLaunch color="#fff" /> <span>{props.textButton}</span></button>
+      <button onClick={handleWhatsAppClick}>
+        <MdRocketLaunch  /> <span>{props.textButton}</span>
+      </button>
     </div>
   )
 }

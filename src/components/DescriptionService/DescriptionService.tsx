@@ -7,8 +7,8 @@ interface DescriptionServiceProps {
   subtitleDescription: string
 }
 function DescriptionService({titleDescription, subtitleDescription} : DescriptionServiceProps) {
-  const handleWhatsAppClick = () => {
-    window.open(ContactEnum.whats, '_blank');
+  const handleGithubClick = () => {
+    window.open(ContactEnum.github, '_blank');
   };
   return (
     <div className='description-service-container'>
@@ -21,7 +21,7 @@ function DescriptionService({titleDescription, subtitleDescription} : Descriptio
             <span>{subtitleDescription}</span>
           </div>
           <div className='description-service-button'>
-            <Button textButton={'Vamos nessa!'} handlerClick={handleWhatsAppClick}></Button>
+            <Button textButton={'Acesse meu Git hub!'} handlerClick={handleGithubClick}></Button>
           </div>
         </div>
 

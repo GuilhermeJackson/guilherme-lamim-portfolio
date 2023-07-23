@@ -1,20 +1,25 @@
 
 export const descriptionAble = {
-    title: 'Por que escolher a Guila Tech?',
+    title: 'Hábilidades',
     list: [
-        'Entende e acompanha as tendências do mercado de tecnologia',
-        'Faz um estudo do seu nicho de atuação e desenvolve soluções que façam sentido para seu negócio',
-        'Preza pela qualidade e sucesso do cliente',
-        'Cumpre com prazos e solicitações acordadas durante o projeto',
-        'Equipe de especialistas experientes',
-        'Abordagem colaborativa com os clientes',
-        'Entrega dentro dos prazos estabelecidos',
-        'Preços competitivos'
+        'React / Typescript',
+        'Angular / Typescript',
+        'Ant Design NG-Zorro',
+        'Consumo de APIs REST',
+        'Teste unitários com Jasmine e Karma',
+        'Testes de integração com Cypress',
+        'Biblioteca eCharts',
+        ' Azure DevOps',
+        
 
     ],
-    resume1: `A Guila Tech é uma empresa de desenvolvimento de software, websites e app's dedicada a oferecer soluções tecnológicas inovadoras para empresas e empreendedores.`,
-    resume2: ' Nossa equipe de especialistas altamente qualificados trabalha em estreita colaboração com os clientes para entender suas necessidades específicas e criar soluções personalizadas que impulsionam o crescimento e a eficiência dos negócios.',
-    resume3: ''
+    resume1: "Formado em Sistemas de Informação em 2022, pela Uniasselvi, onde tive meu" +
+        " primeiro contato com tecnologia.",
+    resume2: "Em 2019 iniciei o curso de formação de desenvolvimento" +
+        " Android e iOS pela Proway, como parte do programa Padawan da AmbevTech.",
+    resume3: "Trabalhei por 2 anos como front-end na maior e mais complexa cervejaria do mundo, a Ambev, que me " +
+        "permitiu pôr em prática todo conhecimento adquirido na faculdade e foi de grande importância " +
+        " para o desenvolvimento das minhas habilidades técnicas e comunicação."
 }
 
 export const providerService = {
@@ -87,7 +92,7 @@ export const aboutMe = {
     me1: 'Olá, sou Guilherme Lamim, um desenvolvedor web com 7 anos de experiência. Tenho ampla experiência em projetos internacionais de alta complexidade, onde pude aprimorar minhas habilidades de desenvolvimento web.',
     me2: 'Meu foco principal é construir sites responsivos e oferecer uma experiência de usuário excepcional. Além disso, estou comprometido em entregar projetos de alta qualidade, com excelente desempenho e atendendo às expectativas dos clientes.',
     me3: 'Se você está em busca de um desenvolvedor altamente competente, estou aqui para ajudar.',
-    
+
 }
 
 export const PositiveService = {

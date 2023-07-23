@@ -28,11 +28,19 @@
                 &:first-child {
                     color: @primary-color;
                     font-size: 120px;
+                    background: linear-gradient(to top, @primary-color, #2acdcd, @secundary-color);
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    color: transparent;
                 }
 
                 &:last-child {
-                    color: @secundary-color;
+                    color: @primary-color;
                     font-size: 120px;
+                    background: linear-gradient(to top, @primary-color, #2acdcd, @secundary-color);
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    color: transparent;
                 }
             }
         }

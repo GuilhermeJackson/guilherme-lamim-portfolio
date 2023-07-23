@@ -10,7 +10,7 @@ function TitleSubtitleText() {
         </h2>
       </div>
       <div className='al-subtitle'>
-        <span><strong>transformando ideias inovadoras em realidade digital!</strong></span>
+        <span><strong>Desenvolvedor front-end</strong></span>
       </div>
       
     </div>

@@ -30,7 +30,7 @@ li,
 ul,
 span,
 strong {
-  color: @secundary-color;
+  color: @primary-color;
 }
 
 body {
@@ -49,7 +49,7 @@ h1 {
 button {
   border-radius: @border-radius;
   border: 1px solid transparent;
-  background-color: @primary-color;
+  background-color: @secundary-color;
   padding: 0.6em @padding-all-button;
   font-size: 1em;
   font-weight: 500;
@@ -65,8 +65,9 @@ button:hover {
 
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-  outline: none;
+  outline: thin dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
 }
 
 @media (max-width: 576px) {

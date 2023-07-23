@@ -12,7 +12,7 @@ interface DescriptionAbleProps {
 }
 const iconColor = '#108410';
 
-function DescriptionAble({ title, list, resume1, resume2 }: DescriptionAbleProps) {
+function DescriptionAble({ title, list, resume1, resume2, resume3 }: DescriptionAbleProps) {
   const handleWhatsAppClick = () => {
     window.open(ContactEnum.whats, '_blank');
   };
@@ -35,6 +35,7 @@ function DescriptionAble({ title, list, resume1, resume2 }: DescriptionAbleProps
       <div className='able-resume'>
         <p><strong>{resume1}</strong></p>
         <p><strong>{resume2}</strong></p>
+        <p><strong>{resume3}</strong></p>
         <Button textButton={'Vamos nessa!'} handlerClick={handleWhatsAppClick} />
       </div>
     </div>
