@@ -25,7 +25,7 @@ function DescriptionPositiveService({ title, listPositive }: DescriptionPositive
           </div>
           <div className='positive-descriotion-first'>
             {listPositive.map((item, index) => {
-              return <div key={index}>
+              return <div key={index} data-aos="fade-right" data-aos-offset="-600">
                 <BsCheckCircleFill size={16} color={iconColor} />
                 <span>{item}</span><br /><br />
               </div>

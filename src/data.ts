@@ -13,13 +13,10 @@ export const descriptionAble = {
 
 
     ],
-    resume1: "Formado em Sistemas de Informação em 2022, pela Uniasselvi, onde tive meu" +
-        " primeiro contato com tecnologia.",
-    resume2: "Em 2019 iniciei o curso de formação de desenvolvimento" +
-        " Android e iOS pela Proway, como parte do programa Padawan da AmbevTech.",
-    resume3: "Trabalhei por 3 anos como front-end na maior e mais complexa cervejaria do mundo, a Ambev, que me " +
-        "permitiu pôr em prática todo conhecimento adquirido na faculdade e foi de grande importância " +
-        " para o desenvolvimento das minhas habilidades técnicas e comunicação."
+    resume1: "Olá, eu sou Guilherme Lamim, tenho me dedicado ao desenvolvimento de diversas aplicações web com uma variedade de bibliotecas e tecnologias.",
+    resume2: " Tenho experiência em projetos de diferentes complexidades, onde aprendi as melhores técnicas para criar soluções web eficientes e modernas.",
+    resume3: "Além do meu comprometimento profissional, sou pai e tenho o prazer de praticar MMA como uma forma de me manter ativo e saudável.",
+    resume4: "Estou sempre em busca de novos desafios e oportunidades para aprimorar minhas habilidades como desenvolvedor e crescer como profissional."
 }
 
 export const providerService = {

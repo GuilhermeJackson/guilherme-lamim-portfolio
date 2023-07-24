@@ -9,22 +9,23 @@ interface DescriptionAbleProps {
   resume1: string;
   resume2: string;
   resume3: string;
+  resume4: string;
 }
 const iconColor = '#108410';
 
-function DescriptionAble({ title, list, resume1, resume2, resume3 }: DescriptionAbleProps) {
+function DescriptionAble({ title, list, resume1, resume2, resume3, resume4 }: DescriptionAbleProps) {
   const handleWhatsAppClick = () => {
-    window.open(ContactEnum.linkedin, '_blank');
+    window.open(ContactEnum.whats, '_blank');
   };
   return (
     <div className='able-container'>
       <div className='able-list'>
-        <div className='able-title'>
+        <div className='able-title' data-aos="fade-right" data-aos-delay="100" data-aos-offset="-600">
           <h2>{title}</h2>
         </div>
-        <div className='able-list-item'>
+        <div className='able-list-item' >
           {list.map((item, index) => (
-            <div key={index} className='able-arrow-flex'>
+            <div key={index} className='able-arrow-flex' data-aos="fade-right" data-aos-offset="-600">
               <BsCheckCircleFill size={16} color={iconColor} />
                 <span>{item}</span><br /><br />
             </div>
@@ -32,11 +33,12 @@ function DescriptionAble({ title, list, resume1, resume2, resume3 }: Description
         </div>
       </div>
 
-      <div className='able-resume'>
+      <div className='able-resume'  data-aos="fade-left" data-aos-offset="-600">
         <p><strong>{resume1}</strong></p>
         <p><strong>{resume2}</strong></p>
         <p><strong>{resume3}</strong></p>
-        <Button textButton={'Linkedin'} handlerClick={handleWhatsAppClick} />
+        <p><strong>{resume4}</strong></p>
+        <Button textButton={'Entrar em contato!'} handlerClick={handleWhatsAppClick} />
       </div>
     </div>
   );
