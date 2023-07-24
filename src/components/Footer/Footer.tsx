@@ -17,9 +17,6 @@ function Footer() {
             <span>Todos os direios reservados.</span>
           </div>
         </div>
-        <div className='footer-terms-politics'>
-          <a href='/home'>Politica de privacidade</a>
-        </div>
         <div className='footer-talk-we'>
           <span>Entre em contato</span>
           <a href={ContactEnum.whats}>Whatsapp</a>
