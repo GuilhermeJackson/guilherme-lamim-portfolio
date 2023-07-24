@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
 import './Header.less'
-import { GrContact } from 'react-icons/gr'
 import { ContactEnum } from '../../models/enum/whats';
 
 function Header() {
@@ -39,9 +38,6 @@ function Header() {
     };
   }, []);
 
-  const handleWhatsAppClick = () => {
-    window.open(ContactEnum.whats, '_blank');
-  };
 
   return (
     <div className='header-container'>
@@ -54,9 +50,7 @@ function Header() {
           <div className='header-contact'>
             <div className='header-list-part'>
               <div className='header-part-item'>
-                
               </div>
-              
             </div>
           </div>
         </div>
