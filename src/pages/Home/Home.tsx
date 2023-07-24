@@ -7,9 +7,10 @@ import ParticlesAnimation from '../../components/ParticlesAnimation/ParticlesAni
 import DescriptionService from "../../components/DescriptionService/DescriptionService";
 import DescriptionAble from "../../components/DescriptionAble/DescriptionAble";
 
-import { descriptionAble } from '../../data'
+import { descriptionAble, providerService } from '../../data'
 
 import BannerCommercial from '../../components/BannerCommercial/BannerCommercial';
+import ServiceProvider from '../../components/ServiceProvider/ServiceProvider';
 
 function Home() {
   const titleDescription = `Escrevendo código limpo, elegante e eficiente`;
@@ -41,9 +42,9 @@ function Home() {
         resume3={descriptionAble.resume3} 
         resume4={descriptionAble.resume4}/>
 
-      {/* <ServiceProvider
+      <ServiceProvider
         title={providerService.title}
-        listProvider={providerService.listService} /> */}
+        listProvider={providerService.listService} />
       {/* <DescriptionPositiveService
         title={PositiveService.title}
         listPositive={PositiveService.listPositive} /> */}

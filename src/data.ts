@@ -4,15 +4,18 @@ export const descriptionAble = {
     list: [
         'React / Typescript',
         'Angular / Typescript',
+        'HTML / CSS',
+        'Styled Component',
+        'Less',
         'Ant Design NG-Zorro',
         'Consumo de APIs REST',
+        'Ágil / Scrum',
         'Teste unitários com Jasmine e Karma',
         'Testes de integração com Cypress',
-        'Biblioteca eCharts',
+        'eCharts',
+        'Grafana',
         'Azure DevOps',
         'Prototipação com Figma'
-
-
     ],
     resume1: "Olá, eu sou Guilherme Lamim, tenho me dedicado ao desenvolvimento de diversas aplicações web com uma variedade de bibliotecas e tecnologias.",
     resume2: " Tenho experiência em projetos de diferentes complexidades, onde aprendi as melhores técnicas para criar soluções web eficientes e modernas.",
