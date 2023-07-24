@@ -1,16 +1,11 @@
 import './ActionList.less'
 import TitleSubtitleText from '../../components/TitleSubtitleText/TitleSubtitleText'
 import { TbMessageDollar, TbDeviceDesktop, TbBrandWhatsapp, TbBrandGithub, TbBrandLinkedin } from 'react-icons/tb'
-import { useState } from 'react';
 
 function ActionList() {
   const whats = 'https://api.whatsapp.com/send?phone=5547991056721&text=Ol%C3%A1!%20Gostaria%20de%20conversar%20sobre%20os%20servi%C3%A7os%20de%20desenvolvimento.%0APodemos%20discutir%20mais%20detalhes?';
   const iconSize = 32;
 
-  const [, setIconHoverColor] = useState('#000');
-  const handleIconHover = () => {
-    setIconHoverColor('red');
-  };
   return (
     <div className='al-container'>
       <div className='al-list-action'>
@@ -45,21 +40,21 @@ function ActionList() {
           <div className='al-social-circle'>
             <a href='https://github.com/GuilhermeJackson' target='__blank'>
               <div className='al-icon-social'>
-                <TbBrandGithub onMouseOver={handleIconHover} size={iconSize} />
+                <TbBrandGithub   size={iconSize} />
               </div>
             </a>
           </div>
           <div className='al-social-circle'>
             <a href='https://www.linkedin.com/in/guilhermelamim/' target='__blank'>
               <div className='al-icon-social'>
-                <TbBrandLinkedin onMouseOver={handleIconHover} size={iconSize} />
+                <TbBrandLinkedin   size={iconSize} />
               </div>
             </a>
           </div>
           <div className='al-social-circle'>
             <a href={whats} target='__blank'>
               <div className='al-icon-social'>
-                <TbBrandWhatsapp onMouseOver={handleIconHover} size={iconSize} />
+                <TbBrandWhatsapp   size={iconSize} />
               </div>
             </a>
           </div>
