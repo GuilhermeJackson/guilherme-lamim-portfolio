@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
 import './Header.less'
-import { ContactEnum } from '../../models/enum/whats';
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);

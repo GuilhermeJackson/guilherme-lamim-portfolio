@@ -1,5 +1,5 @@
 import './BannerCommercial.less';
-import { TbBrandAngular, TbBrandReact, TbBrandTypescript, TbBrandFlutter } from 'react-icons/tb';
+import { TbBrandAngular, TbBrandReact, TbBrandTypescript } from 'react-icons/tb';
 
 function BannerCommercial() {
   const iconSize = 50

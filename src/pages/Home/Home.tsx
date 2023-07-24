@@ -4,11 +4,9 @@ import ParticlesAnimation from '../../components/ParticlesAnimation/ParticlesAni
 import DescriptionService from "../../components/DescriptionService/DescriptionService";
 import DescriptionAble from "../../components/DescriptionAble/DescriptionAble";
 import ServiceProvider from '../../components/ServiceProvider/ServiceProvider';
-import WhoReceiverService from '../../components/WhoReceiverService/WhoReceiverService';
 
 import { descriptionAble } from '../../data'
 import { providerService } from '../../data'
-import { whoReceiverService } from '../../data'
 import { PositiveService } from '../../data'
 
 import DescriptionPositiveService from '../../components/DescriptionPositiveService/DescriptionPositiveService';
