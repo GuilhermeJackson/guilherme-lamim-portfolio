@@ -19,7 +19,7 @@ function ServiceProvider({ title, listProvider }: ServiceProviderProps) {
       <div className='provider-list-card' >
 
         {listProvider.map((item, index) => (
-          <div key={index} className='provider-list-item' data-aos="fade-top" data-aos-offset="-100">
+          <div key={index} className='provider-list-item' data-aos="fade-top" data-aos-offset="-600">
             <div className='provider-list'>
               <h2>{item.title}</h2>
             </div>

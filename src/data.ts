@@ -9,7 +9,8 @@ export const descriptionAble = {
         'Teste unitários com Jasmine e Karma',
         'Testes de integração com Cypress',
         'Biblioteca eCharts',
-        ' Azure DevOps',
+        'Azure DevOps',
+        'Prototipação com Figma'
 
 
     ],

@@ -6,13 +6,9 @@ import Banner from '../../components/Banner/Banner'
 import ParticlesAnimation from '../../components/ParticlesAnimation/ParticlesAnimation'
 import DescriptionService from "../../components/DescriptionService/DescriptionService";
 import DescriptionAble from "../../components/DescriptionAble/DescriptionAble";
-import ServiceProvider from '../../components/ServiceProvider/ServiceProvider';
 
 import { descriptionAble } from '../../data'
-import { providerService } from '../../data'
-import { PositiveService } from '../../data'
 
-import DescriptionPositiveService from '../../components/DescriptionPositiveService/DescriptionPositiveService';
 import BannerCommercial from '../../components/BannerCommercial/BannerCommercial';
 
 function Home() {
@@ -45,12 +41,12 @@ function Home() {
         resume3={descriptionAble.resume3} 
         resume4={descriptionAble.resume4}/>
 
-      <ServiceProvider
+      {/* <ServiceProvider
         title={providerService.title}
-        listProvider={providerService.listService} />
-      <DescriptionPositiveService
+        listProvider={providerService.listService} /> */}
+      {/* <DescriptionPositiveService
         title={PositiveService.title}
-        listPositive={PositiveService.listPositive} />
+        listPositive={PositiveService.listPositive} /> */}
       {/* <WhoReceiverService
         title={whoReceiverService.title}
         listReceiver={whoReceiverService.listReceive} /> */}
