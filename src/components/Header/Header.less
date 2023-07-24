@@ -4,7 +4,8 @@
     --header-text-color-primary: @primary-color;
     --header-text-color-secundary: @secundary-color;
     --header-text-size: 24px;
-    --header-height: 80px;
+    --header-text-size-mobile: 16px;
+    --header-height: 50px;
 }
 
 .header-container {
@@ -46,7 +47,6 @@ header {
 
     .header-logo {
         display: flex;
-        flex-direction: column;
         line-height: 0.8;
 
         span {
@@ -85,7 +85,6 @@ header {
 
     .header-logo {
         display: flex;
-        flex-direction: column;
         line-height: 0.8;
 
         span {
@@ -120,6 +119,27 @@ header {
     .header-list-part {
         display: none;
     }
+
+    .header-wrapper {
+        justify-content: flex-start;
+        margin-left: 60px;
+    }
+
+    .header-top, .sticky {
+        .header-logo {
+            span {
+                &:first-child {
+                    font-size: var(--header-text-size-mobile);
+                }
+
+                &:last-child {
+                    font-size: var(--header-text-size-mobile);
+                    ;
+                }
+            }
+        }
+    }
+
 }
 
 @media (min-width: 577px) and (max-width: 768px) {}
