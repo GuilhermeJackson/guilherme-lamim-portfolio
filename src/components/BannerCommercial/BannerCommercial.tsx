@@ -3,7 +3,7 @@ import { TbBrandAngular, TbBrandReact, TbBrandTypescript } from 'react-icons/tb'
 
 function BannerCommercial() {
   const iconSize = 50
-  const iconColor = '#0030b9'
+  const iconColor = '#fff'
   return (
     <div className="commercial-container">
       <div className='commercial-wrapper' data-aos="slide-up" data-aos-anchor="commercial-container">
