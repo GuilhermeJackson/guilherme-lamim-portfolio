@@ -4,12 +4,10 @@ import "aos/dist/aos.css";
 
 import Banner from '../../components/Banner/Banner'
 import ParticlesAnimation from '../../components/ParticlesAnimation/ParticlesAnimation'
-import DescriptionService from "../../components/DescriptionService/DescriptionService";
 import DescriptionAble from "../../components/DescriptionAble/DescriptionAble";
 
 import { descriptionAble, providerService } from '../../data'
 
-import BannerCommercial from '../../components/BannerCommercial/BannerCommercial';
 import ServiceProvider from '../../components/ServiceProvider/ServiceProvider';
 
 function Home() {
@@ -27,9 +25,7 @@ function Home() {
         <ParticlesAnimation />
       </div>
       <div className='home-banner' >
-        <Banner />
-        <BannerCommercial />
-        <DescriptionService
+        <Banner
           titleDescription={titleDescription}
           subtitleDescription={subtitleDescription} />
       </div>
@@ -39,8 +35,8 @@ function Home() {
         list={descriptionAble.list}
         resume1={descriptionAble.resume1}
         resume2={descriptionAble.resume2}
-        resume3={descriptionAble.resume3} 
-        resume4={descriptionAble.resume4}/>
+        resume3={descriptionAble.resume3}
+        resume4={descriptionAble.resume4} />
 
       <ServiceProvider
         title={providerService.title}

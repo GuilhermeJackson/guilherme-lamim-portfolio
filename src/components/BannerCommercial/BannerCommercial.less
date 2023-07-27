@@ -5,14 +5,14 @@
 }
 
 .commercial-wrapper {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    justify-items: center;
     align-items: center;
     background-color: @secundary-color;
     border-radius: @border-radius;
-    padding-block: 48px;
+    padding-block: 28px;
     padding-inline: 24px;
-    flex-wrap: wrap;
     gap: 20px
 }
 

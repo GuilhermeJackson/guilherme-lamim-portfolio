@@ -20,12 +20,12 @@ function DescriptionAble({ title, list, resume1, resume2, resume3, resume4 }: De
   return (
     <div className='able-container'>
       <div className='able-list'>
-        <div className='able-title' data-aos="fade-right" data-aos-delay="100" data-aos-offset="-600">
+        <div className='able-title'>
           <h2>{title}</h2>
         </div>
         <div className='able-list-item' >
           {list.map((item, index) => (
-            <div key={index} className='able-arrow-flex' data-aos="fade-right" data-aos-offset="-600">
+            <div key={index} className='able-arrow-flex' data-aos="fade-right" data-aos-offset="-500">
               <BsCheckCircleFill size={16} color={iconColor} />
                 <span>{item}</span><br /><br />
             </div>
@@ -33,7 +33,7 @@ function DescriptionAble({ title, list, resume1, resume2, resume3, resume4 }: De
         </div>
       </div>
 
-      <div className='able-resume'  data-aos="fade-left" data-aos-offset="-600">
+      <div className='able-resume'>
         <p><strong>{resume1}</strong></p>
         <p><strong>{resume2}</strong></p>
         <p><strong>{resume3}</strong></p>

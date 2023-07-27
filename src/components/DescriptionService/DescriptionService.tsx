@@ -2,7 +2,7 @@ import { ContactEnum } from '../../models/enum/whats';
 import Button from '../Button/Button'
 import './DescriptionService.less'
 
-interface DescriptionServiceProps {
+export interface DescriptionServiceProps {
   titleDescription: string,
   subtitleDescription: string
 }
