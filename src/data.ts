@@ -1,6 +1,6 @@
 
 export const descriptionAble = {
-    title: 'Hard skills',
+    title: 'Meus conhecimentos',
     list: [
         'React / Typescript',
         'Angular / Typescript',
