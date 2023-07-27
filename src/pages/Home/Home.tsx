@@ -6,9 +6,10 @@ import Banner from '../../components/Banner/Banner'
 import ParticlesAnimation from '../../components/ParticlesAnimation/ParticlesAnimation'
 import DescriptionAble from "../../components/DescriptionAble/DescriptionAble";
 
-import { descriptionAble, providerService } from '../../data'
+import { descriptionAble, providerService, whoReceiverService } from '../../data'
 
 import ServiceProvider from '../../components/ServiceProvider/ServiceProvider';
+import WhoReceiverService from '../../components/WhoReceiverService/WhoReceiverService';
 
 function Home() {
   const titleDescription = `Escrevendo código limpo, elegante e eficiente`;
@@ -44,9 +45,9 @@ function Home() {
       {/* <DescriptionPositiveService
         title={PositiveService.title}
         listPositive={PositiveService.listPositive} /> */}
-      {/* <WhoReceiverService
+      <WhoReceiverService
         title={whoReceiverService.title}
-        listReceiver={whoReceiverService.listReceive} /> */}
+        listReceiver={whoReceiverService.listReceive} />
 
     </div>
   )

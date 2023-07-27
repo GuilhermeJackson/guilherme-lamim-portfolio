@@ -1,3 +1,7 @@
+import imobiliariaBerken from './assets/imobiliaria fernando berken.png';
+import fundamentosReact from './assets/fundamentos react.png';
+import ticksOnePage from './assets/ticks website.png';
+import plataformaStreaming from './assets/streming plataforma.png';
 
 export const descriptionAble = {
     title: 'Meus conhecimentos',
@@ -30,7 +34,7 @@ export const providerService = {
             title: 'Abstract Factory',
             subtitle: 'Você já ouvir falar sobre Abstract Factory?',
             description: 'Abstract Factory é um design patterns que fornece uma interface para criar conjuntos de objetos relacionados sem especificar sua classes concretas.',
-            url: 'https://www.linkedin.com/pulse/abstract-factory-guilherme-lamim/?trackingId=sapLpfNTTMCdJ3SX%2BhzrnQ%3D%3D'        
+            url: 'https://www.linkedin.com/pulse/abstract-factory-guilherme-lamim/?trackingId=sapLpfNTTMCdJ3SX%2BhzrnQ%3D%3D'
         },
         {
             title: 'Complexidade ciclomática',
@@ -42,31 +46,35 @@ export const providerService = {
 }
 
 export const whoReceiverService = {
-    title: 'Portfólio',
+    title: 'Meu portfólio',
     listReceive: [
         {
-            title: 'E-commerces',
-            description: 'que desejam construir lojas virtuais otimizadas, eficientes e que facilitem a jornada de compra dos clientes'
+            title: 'Imobiliaria Bercken',
+            description: 'Projeto em React/Typescript. Com design moderno o site conta com banco de dados firebase e funcionalidade de notificação por e-mail.',
+            img: imobiliariaBerken,
+            github: '',
+            site: 'https://fernando-berkenbrock-imobiliaria.vercel.app/'
         },
         {
-            title: 'Prestadores de Serviço',
-            description: 'que desejam criar páginas para atrair clientes e mostrar de forma mais atrativa os benefícios dos seus serviços'
+            title: 'One Page para Catalogo de Produtos',
+            description: 'Listagem de produtos com botão de whatsapp, Google maps para localização do comercio, direcionamento para mídias sociais e mapa de calor com hotjar.',
+            img: ticksOnePage,
+            github: '',
+            site: 'https://www.ledsonalbuquerque.com/'
         },
         {
-            title: 'Empreendedores',
-            description: 'que buscam se inserir no mercado digital, fazendo deste meio um canal de vendas forte e lucrativo'
+            title: 'Plataforma de Streaming',
+            description: 'Projeto criado para estudo de conceitos em React, criação de layout com Tailwind, criação e consumo de queries e mutation com GraphQl e Apollo, exibição de video com Vime e formatação de datas com datefns.',
+            img: plataformaStreaming,
+            github: 'https://github.com/GuilhermeJackson/plataforma-streaming',
+            site: 'https://plataforma-streaming-gamma.vercel.app/'
         },
         {
-            title: 'Lojas Físicas',
-            description: 'que querem marcar presença no digital e se destacar da concorrência, mesmo vendendo um produto físico'
-        },
-        {
-            title: 'Sites para manutenção',
-            description: 'que desejam alterar sites já criados de diversas tecnologias'
-        },
-        {
-            title: 'Startups / Empresas de tecnologia',
-            description: 'que estão em crescimento e buscam  transformação digital por meio de projetos de grande escala'
+            title: 'Fudamentos React',
+            description: 'Projeto básico para aprendizado de conceitos como Hooks, UseEffect, Principio da Imutabilidade, Consumo de API, Async await',
+            img: fundamentosReact,
+            github: 'https://github.com/GuilhermeJackson/fundamentos-react',
+            site: 'https://fundamentos-basicos-react.vercel.app/'
         },
     ]
 }

@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: @margin-text-bottom;
+  cursor: context-menu;
 }
 
 .who-receiver-list-card {
@@ -14,10 +15,14 @@
   gap: @margin-text-bottom;
   margin-bottom: @margin-text-bottom;
 
+  .who-receiver-list-item:hover {
+    background-color: @background-card-hover;
+  }
+
   .who-receiver-list-item {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     text-align: center;
     background-color: @transparent-grey-cards;
     border: @border-color-light;
@@ -25,8 +30,19 @@
     padding: 24px;
     background: @transparent-grey-cards;
 
+    img {
+      width: 100%;
+      border-radius: @border-radius;
+    }
+
     h2 {
       color: @primary-color;
+    }
+
+    .who-receiver-list-subtitle {
+      span {
+        font-size: 16px;
+      }
     }
 
     .who-receiver-list-description {
@@ -35,6 +51,24 @@
   }
 }
 
+.who-receiver-list-buttons {
+  display: flex;
+  padding-top: 24px;
+  border-radius: @border-radius;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  gap: 20px;
+
+  a {
+    border-radius: @border-radius;
+    background-color: @secundary-color;
+  }
+
+  a:hover {
+    background-color: @button-hover;
+  }
+}
 
 @media (max-width: 576px) {}
 
