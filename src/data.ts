@@ -2,8 +2,9 @@ import imobiliariaBerken from './assets/imobiliaria fernando berken.png';
 import fundamentosReact from './assets/fundamentos react.png';
 import ticksOnePage from './assets/ticks website.png';
 import plataformaStreaming from './assets/streming plataforma.png';
+import personPictureImg from './assets/perfil.jpg'
 
-export const descriptionAble = {
+export const descriptionSkills = {
     title: 'Meus conhecimentos',
     list: [
         'React / Typescript',
@@ -21,6 +22,10 @@ export const descriptionAble = {
         'Azure DevOps',
         'Prototipação com Figma'
     ],
+}
+
+export const descriptionAble = {
+
     resume1: "Olá, eu sou Guilherme Lamim, tenho me dedicado ao desenvolvimento de diversas aplicações web com uma variedade de bibliotecas e tecnologias.",
     resume2: " Tenho experiência em projetos de diferentes complexidades, onde aprendi as melhores técnicas para criar soluções web eficientes e modernas.",
     resume3: "Além do meu comprometimento profissional, sou pai e tenho o prazer de praticar MMA como uma forma de me manter ativo e saudável.",
@@ -99,4 +104,8 @@ export const PositiveService = {
         'Acredito que feedback é fundamental para um ambiente de trabalho saudável e estou sempre aberto a críticas construtivas para melhorar minhas habilidades de programação',
         'Respeito a diversidade e valorizo as diferentes perspectivas'
     ]
+}
+
+export const Picture = {
+    img: personPictureImg
 }

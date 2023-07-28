@@ -8,8 +8,10 @@ import DescriptionAble from "../../components/DescriptionAble/DescriptionAble";
 
 import { descriptionAble, providerService, whoReceiverService } from '../../data'
 
-import ServiceProvider from '../../components/ServiceProvider/ServiceProvider';
+import ServiceProvider from '../../components/Articles/Articles';
 import WhoReceiverService from '../../components/WhoReceiverService/WhoReceiverService';
+import DescriptionSkills from '../../components/DescriptionSkills/DescriptionSkills';
+import Articles from '../../components/Articles/Articles';
 
 function Home() {
   const titleDescription = `Escrevendo código limpo, elegante e eficiente`;
@@ -32,14 +34,14 @@ function Home() {
       </div>
 
       <DescriptionAble
-        title={descriptionAble.title}
-        list={descriptionAble.list}
         resume1={descriptionAble.resume1}
         resume2={descriptionAble.resume2}
         resume3={descriptionAble.resume3}
         resume4={descriptionAble.resume4} />
 
-      <ServiceProvider
+      <DescriptionSkills />
+
+      <Articles
         title={providerService.title}
         listProvider={providerService.listService} />
       {/* <DescriptionPositiveService

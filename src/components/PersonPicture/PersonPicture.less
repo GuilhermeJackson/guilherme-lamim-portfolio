@@ -1,0 +1,48 @@
+@import '../../styles/global-variables.less';
+
+section {
+    margin-bottom: 24px;
+}
+.picture-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+img {
+    max-width: 400px;
+    border-radius: 170px;
+    box-shadow: 0px 1px 11px 1px black;
+}
+
+.picture-resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+    p,
+    ul,
+    li {
+        font-size: 18px;
+    }
+
+    .picture-hello {
+        font-size: 90px;
+        line-height: 0.5em
+    }
+}
+
+
+
+@media (max-width: 576px) {
+    .picture-wrapper {
+        img {
+            max-width: 270px;
+        }
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {}

@@ -1,6 +1,6 @@
 @import '../../styles/global-variables.less';
 
-.provider-container {
+.aticles-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,16 +11,16 @@
 
 
 
-.provider-list-card {
+.aticles-list-card {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: @margin-text-bottom;
 
-  .provider-list-item:hover {
+  .aticles-list-item:hover {
     background-color: @background-card-hover;
   }
 
-  .provider-list-item {
+  .aticles-list-item {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -34,11 +34,11 @@
       color: @quaternary-color;
     }
 
-    .provider-list-subtitle {
+    .aticles-list-subtitle {
       margin-bottom: @margin-text-bottom;
     }
 
-    .provider-list-description {
+    .aticles-list-description {
       margin-bottom: @margin-text-bottom;
     }
 
@@ -52,7 +52,7 @@
 
 
 @media (max-width: 576px) {
-  .provider-list {
+  .aticles-list {
     h2 {
       font-size: 24px;
     }
