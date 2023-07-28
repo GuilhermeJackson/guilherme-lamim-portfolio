@@ -5,10 +5,10 @@ function TitleSubtitleText() {
     <div className='al-title-wrapper'>
       <div className='al-title'>
         <h2 >
-          <span className="al-span-first-name">
+          <span className="al-span-first-name" data-aos="fade-right" data-aos-offset="-500">
             Guilherme
           </span>
-          <span className="al-span-last-name" >
+          <span className="al-span-last-name" data-aos="fade-right" data-aos-offset="-500">
             Lamim
           </span>
         </h2>

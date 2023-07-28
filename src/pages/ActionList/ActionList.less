@@ -16,9 +16,14 @@ body {
     background-image: url('../../assets/img/action-page/background-setup.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    filter: brightness(0.7) grayscale(85%) blur(2px);
+    filter: brightness(0.7) grayscale(85%) blur(6px);
     z-index: -1;
   }
+}
+
+.al-list-item {
+  display: flex;
+  width: 100%;
 }
 
 .al-list-action {
@@ -26,11 +31,29 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  .al-title-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    position: relative;
+    background-color: @background-body-transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.655);
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0;
+  }
 }
 
 .al-list-buttons,
 a {
-  display: flex;
   width: 100%;
   flex-direction: column;
   justify-content: center;
@@ -79,6 +102,9 @@ a {
 .al-icon-social {
   display: flex;
   color: @primary-color;
+  align-items: center;
+  justify-content: center;
+
   &:hover {
     color: @secundary-color;
   }
@@ -105,10 +131,11 @@ a {
     justify-content: center;
     margin-top: @margin-text-bottom;
   }
+
   .al-social-circle:hover {
     background-color: @primary-color;
   }
-  
+
 }
 
 @media (max-width: 576px) {
@@ -125,6 +152,13 @@ a {
   .al-list-buttons,
   a {
     width: 95%;
+  }
+
+  .al-list-action {
+
+    h1 {
+      font-size: 1.2em;
+    }
   }
 }
 
