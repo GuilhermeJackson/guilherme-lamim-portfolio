@@ -17,7 +17,7 @@ function DescriptionAble({ resume1, resume2, resume3, resume4 }: DescriptionAble
   return (
     <div className='able-container'>
       <PersonPicture />
-      <div className='able-resume'>
+      <div className='able-resume' data-aos="fade-right" data-aos-offset="-200">
         <span>{resume1}</span>
         <span>{resume2}</span>
         <span>{resume3}</span>
