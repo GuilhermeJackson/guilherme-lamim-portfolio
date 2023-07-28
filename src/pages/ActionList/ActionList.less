@@ -52,52 +52,56 @@ body {
   }
 }
 
-.al-list-buttons,
-a {
+.al-list-buttons {
   width: 100%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: @primary-color;
-
-  .al-item-button {
-    display: grid;
-    width: 100%;
-    grid-template-columns: auto auto;
-    background-color: @background-transparent-cards;
-    margin-top: @margin-text-bottom;
-    padding-inline: 25px;
-    padding-block: 20px;
-    border-radius: @border-radius;
-    border-top: 2px solid @secundary-color;
-
-    span {
-      color: @primary-color;
-    }
-
-    &::before {
-      filter: blur(2px);
-    }
-  }
-
-  .al-item-button:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    color: @text-perple;
-    cursor: pointer;
-
-    span {
-      color: @secundary-color;
-    }
-  }
-
-
-  .al-icon-button {
+  a {
     display: flex;
-    justify-content: flex-start;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    color: @primary-color;
+
+    .al-item-button {
+      display: grid;
+      width: 100%;
+      grid-template-columns: auto auto;
+      background-color: @background-transparent-cards;
+      margin-top: @margin-text-bottom;
+      padding-inline: 25px;
+      padding-block: 20px;
+      border-radius: @border-radius;
+      border-top: 2px solid @secundary-color;
+
+      span {
+        color: @primary-color;
+      }
+
+      &::before {
+        filter: blur(2px);
+      }
+    }
+
+    .al-item-button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      color: @text-perple;
+      cursor: pointer;
+
+      span {
+        color: @secundary-color;
+      }
+    }
+
+
+    .al-icon-button {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
   }
 }
+
 
 .al-icon-social {
   display: flex;
@@ -149,10 +153,7 @@ a {
     padding-right: 10px;
   }
 
-  .al-list-buttons,
-  a {
-    width: 95%;
-  }
+
 
   .al-list-action {
 
@@ -164,8 +165,4 @@ a {
 
 @media (min-width: 577px) and (max-width: 768px) {
 
-  .al-list-buttons,
-  a {
-    width: 90%;
-  }
 }
