@@ -12,11 +12,11 @@ function DescriptionService({titleDescription, subtitleDescription} : Descriptio
   };
   return (
     <div className='description-service-container'>
-        <div className='description-service-wrapper'>
+        <div className='description-service-wrapper' data-aos="fade-right" data-aos-anchor="commercial-container">
           <div className='description-service-title'>
             <h2>{titleDescription}</h2>
           </div>
-          <div className='description-service-subtitle'>
+          <div className='description-service-subtitle' data-aos="fade-left" data-aos-anchor="commercial-container">
             <div className='description-service-line' />
             <span>{subtitleDescription}</span>
           </div>

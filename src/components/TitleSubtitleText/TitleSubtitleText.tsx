@@ -8,13 +8,13 @@ function TitleSubtitleText() {
           <span className="al-span-first-name" data-aos="fade-right" data-aos-offset="-500">
             Guilherme
           </span>
-          <span className="al-span-last-name" data-aos="fade-right" data-aos-offset="-500">
+          <span className="al-span-last-name" data-aos="fade-left" data-aos-offset="-500">
             Lamim
           </span>
         </h2>
       </div>
-      <div className='al-subtitle' >
-        <span><strong>Desenvolvedor front-end</strong></span>
+      <div className='al-subtitle' data-aos="fade-right" data-aos-offset="-500">
+        <em><strong>Desenvolvedor front-end</strong></em>
       </div>
 
     </div>
