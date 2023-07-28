@@ -8,7 +8,6 @@ import DescriptionAble from "../../components/DescriptionAble/DescriptionAble";
 
 import { descriptionAble, providerService, whoReceiverService } from '../../data'
 
-import ServiceProvider from '../../components/Articles/Articles';
 import WhoReceiverService from '../../components/WhoReceiverService/WhoReceiverService';
 import DescriptionSkills from '../../components/DescriptionSkills/DescriptionSkills';
 import Articles from '../../components/Articles/Articles';
