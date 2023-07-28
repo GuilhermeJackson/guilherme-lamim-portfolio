@@ -31,21 +31,15 @@ function Home() {
           titleDescription={titleDescription}
           subtitleDescription={subtitleDescription} />
       </div>
-
       <DescriptionAble
         resume1={descriptionAble.resume1}
         resume2={descriptionAble.resume2}
         resume3={descriptionAble.resume3}
         resume4={descriptionAble.resume4} />
-
       <DescriptionSkills />
-
       <Articles
         title={providerService.title}
         listProvider={providerService.listService} />
-      {/* <DescriptionPositiveService
-        title={PositiveService.title}
-        listPositive={PositiveService.listPositive} /> */}
       <WhoReceiverService
         title={whoReceiverService.title}
         listReceiver={whoReceiverService.listReceive} />

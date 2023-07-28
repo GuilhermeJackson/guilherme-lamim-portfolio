@@ -17,7 +17,7 @@ function WhoReceiverService({ title, listReceiver }: WhoReceiverServiceProps) {
       </div>
       <div className='who-receiver-list-card' >
         {listReceiver.map((item, index) => {
-          return <div key={index} className='who-receiver-list-item' data-aos="fade-left" data-aos-offset="-200">
+          return <div key={index} className='who-receiver-list-item'>
             <div>
               <img src={item.img} />
               <div className='who-receiver-list-title-subtitle'>
