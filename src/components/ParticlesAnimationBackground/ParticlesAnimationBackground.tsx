@@ -1,10 +1,10 @@
-import './ParticlesAnimation.less'
+import './ParticlesAnimationBackground.less'
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import type { Container, Engine } from "tsparticles-engine";
 import { loadFull } from "tsparticles";
 
-function ParticlesAnimation() {
+function ParticlesAnimationBackground() {
   const particlesInit = useCallback(async (engine: Engine) => {
     console.log(engine);
 
@@ -101,4 +101,4 @@ function ParticlesAnimation() {
   )
 }
 
-export default ParticlesAnimation
+export default ParticlesAnimationBackground

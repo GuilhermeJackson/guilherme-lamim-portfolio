@@ -3,14 +3,14 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 import Banner from '../../components/Banner/Banner'
-import ParticlesAnimation from '../../components/ParticlesAnimation/ParticlesAnimation'
-import DescriptionAble from "../../components/DescriptionAble/DescriptionAble";
+import ParticlesAnimationBackground from '../../components/ParticlesAnimationBackground/ParticlesAnimationBackground'
 
 import { descriptionAble, providerService, whoReceiverService } from '../../data'
 
-import WhoReceiverService from '../../components/WhoReceiverService/WhoReceiverService';
+import Portfolio from '../../components/Portfolio/Portfolio';
 import DescriptionSkills from '../../components/DescriptionSkills/DescriptionSkills';
 import Articles from '../../components/Articles/Articles';
+import AboutMe from '../../components/AboutMe/AboutMe';
 
 function Home() {
   const titleDescription = `Escrevendo código limpo, elegante e eficiente`;
@@ -24,14 +24,14 @@ function Home() {
   return (
     <div className='home-container'>
       <div className='home-background'>
-        <ParticlesAnimation />
+        <ParticlesAnimationBackground />
       </div>
       <div className='home-banner' >
         <Banner
           titleDescription={titleDescription}
           subtitleDescription={subtitleDescription} />
       </div>
-      <DescriptionAble
+      <AboutMe
         resume1={descriptionAble.resume1}
         resume2={descriptionAble.resume2}
         resume3={descriptionAble.resume3}
@@ -40,10 +40,9 @@ function Home() {
       <Articles
         title={providerService.title}
         listProvider={providerService.listService} />
-      <WhoReceiverService
+      <Portfolio
         title={whoReceiverService.title}
         listReceiver={whoReceiverService.listReceive} />
-
     </div>
   )
 }

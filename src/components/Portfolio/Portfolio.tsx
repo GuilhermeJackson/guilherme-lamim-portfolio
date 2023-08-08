@@ -1,12 +1,12 @@
 import { ContactEnum } from '../../models/enum/whats';
 import Button from '../Button/Button';
-import './WhoReceiverService.less'
+import './Portfolio.less'
 
-interface WhoReceiverServiceProps {
+interface PortfolioProps {
   title: string;
   listReceiver: { title: string, description: string, img: string, github: string, site: string }[]
 }
-function WhoReceiverService({ title, listReceiver }: WhoReceiverServiceProps) {
+function Portfolio({ title, listReceiver }: PortfolioProps) {
   const handleWhatsAppClick = () => {
     window.open(ContactEnum.whats, '_blank');
   };
@@ -45,4 +45,4 @@ function WhoReceiverService({ title, listReceiver }: WhoReceiverServiceProps) {
   )
 }
 
-export default WhoReceiverService
+export default Portfolio

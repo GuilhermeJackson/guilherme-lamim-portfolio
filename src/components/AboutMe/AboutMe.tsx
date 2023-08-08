@@ -1,16 +1,16 @@
 import Button from '../Button/Button';
-import './DescriptionAble.less';
+import './AboutMe.less';
 import { ContactEnum } from '../../models/enum/whats';
 import PersonPicture from '../PersonPicture/PersonPicture';
 
-interface DescriptionAbleProps {
+interface AboutMeProps {
   resume1: string;
   resume2: string;
   resume3: string;
   resume4: string;
 }
 
-function DescriptionAble({ resume1, resume2, resume3, resume4 }: DescriptionAbleProps) {
+function AboutMe({ resume1, resume2, resume3, resume4 }: AboutMeProps) {
   const handleWhatsAppClick = () => {
     window.open(ContactEnum.whats, '_blank');
   };
@@ -28,4 +28,4 @@ function DescriptionAble({ resume1, resume2, resume3, resume4 }: DescriptionAble
   );
 }
 
-export default DescriptionAble;
+export default AboutMe;
