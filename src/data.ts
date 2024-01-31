@@ -1,9 +1,7 @@
 import imobiliariaBerken from './assets/imobiliaria fernando berken.png';
-import fundamentosReact from './assets/fundamentos react.png';
 import ticksOnePage from './assets/ticks website.png';
 import cadence from './assets/cadence.png';
 import oster from './assets/oster.png';
-import plataformaStreaming from './assets/streming plataforma.png';
 import personPictureImg from './assets/perfil.jpg'
 
 export const descriptionSkills = {
