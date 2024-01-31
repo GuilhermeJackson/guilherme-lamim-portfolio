@@ -31,6 +31,9 @@ function Home() {
           titleDescription={titleDescription}
           subtitleDescription={subtitleDescription} />
       </div>
+      <Portfolio
+        title={whoReceiverService.title}
+        listReceiver={whoReceiverService.listReceive} />
       <AboutMe
         resume1={descriptionAble.resume1}
         resume2={descriptionAble.resume2}
@@ -40,9 +43,6 @@ function Home() {
       <Articles
         title={providerService.title}
         listProvider={providerService.listService} />
-      <Portfolio
-        title={whoReceiverService.title}
-        listReceiver={whoReceiverService.listReceive} />
     </div>
   )
 }
