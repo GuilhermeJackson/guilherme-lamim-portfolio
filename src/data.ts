@@ -1,6 +1,8 @@
 import imobiliariaBerken from './assets/imobiliaria fernando berken.png';
 import fundamentosReact from './assets/fundamentos react.png';
 import ticksOnePage from './assets/ticks website.png';
+import cadence from './assets/cadence.png';
+import oster from './assets/oster.png';
 import plataformaStreaming from './assets/streming plataforma.png';
 import personPictureImg from './assets/perfil.jpg'
 
@@ -51,7 +53,7 @@ export const providerService = {
 }
 
 export const whoReceiverService = {
-    title: 'Meu portfólio',
+    title: 'Alguns do meus trabalhos',
     listReceive: [
         {
             title: 'Imobiliaria Bercken',
@@ -62,25 +64,39 @@ export const whoReceiverService = {
         },
         {
             title: 'One Page para Catalogo de Produtos',
-            description: 'Listagem de produtos com botão de whatsapp, Google maps para localização do comercio, direcionamento para mídias sociais e mapa de calor com hotjar.',
+            description: 'Listagem de produtos com botão de whatsapp, direcionamento para mídias sociais e mapa de calor com hotjar.',
             img: ticksOnePage,
             github: '',
             site: 'https://www.ledsonalbuquerque.com/'
         },
         {
-            title: 'Plataforma de Streaming',
-            description: 'Projeto criado para estudo de conceitos em React, criação de layout com Tailwind, criação e consumo de queries e mutation com GraphQl e Apollo, exibição de video com Vime e formatação de datas com datefns.',
-            img: plataformaStreaming,
-            github: 'https://github.com/GuilhermeJackson/plataforma-streaming',
-            site: 'https://plataforma-streaming-gamma.vercel.app/'
+            title: 'Cadence e-commerce',
+            description: 'Realização de manutenção na Cadence e-commerce utlizando javascript, typescript e jQuery.',
+            img: cadence,
+            github: '',
+            site: 'https://www.cadence.com.br/'
         },
         {
-            title: 'Fudamentos React',
-            description: 'Projeto básico para aprendizado de conceitos como Hooks, UseEffect, Principio da Imutabilidade, Consumo de API, Async await',
-            img: fundamentosReact,
-            github: 'https://github.com/GuilhermeJackson/fundamentos-react',
-            site: 'https://fundamentos-basicos-react.vercel.app/'
+            title: 'Oster e-commerce',
+            description: 'Realização de manutenção na Oster e-commerce utlizando javascript, typescript e jQuery.',
+            img: oster,
+            github: '',
+            site: 'https://www.oster.com.br/'
         },
+        // {
+        //     title: 'Plataforma de Streaming',
+        //     description: 'Projeto criado para estudo de conceitos em React, criação de layout com Tailwind, criação e consumo de queries e mutation com GraphQl e Apollo, exibição de video com Vime e formatação de datas com datefns.',
+        //     img: plataformaStreaming,
+        //     github: 'https://github.com/GuilhermeJackson/plataforma-streaming',
+        //     site: 'https://plataforma-streaming-gamma.vercel.app/'
+        // },
+        // {
+        //     title: 'Fudamentos React',
+        //     description: 'Projeto básico para aprendizado de conceitos como Hooks, UseEffect, Principio da Imutabilidade, Consumo de API, Async await',
+        //     img: fundamentosReact,
+        //     github: 'https://github.com/GuilhermeJackson/fundamentos-react',
+        //     site: 'https://fundamentos-basicos-react.vercel.app/'
+        // },
     ]
 }
 
