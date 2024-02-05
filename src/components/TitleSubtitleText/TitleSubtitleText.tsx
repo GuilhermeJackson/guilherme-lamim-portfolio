@@ -14,7 +14,7 @@ function TitleSubtitleText() {
         </h2>
       </div>
       <div className='al-subtitle' data-aos="fade-right" data-aos-offset="-500">
-        <em><strong>Desenvolvedor front-end</strong></em>
+        <em>Desenvolvedor front-end</em>
       </div>
 
     </div>

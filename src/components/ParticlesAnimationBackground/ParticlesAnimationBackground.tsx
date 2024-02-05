@@ -54,7 +54,7 @@ function ParticlesAnimationBackground() {
                 },
                 particles: {
                     color: {
-                        value: "#0030b9",
+                        value: "#00b916",
                     },
                     links: {
                         color: "#fff",
