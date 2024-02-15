@@ -2,6 +2,7 @@ import imobiliariaBerken from './assets/imobiliaria fernando berken.png';
 import ticksOnePage from './assets/ticks website.png';
 import cadence from './assets/cadence.png';
 import oster from './assets/oster.png';
+import coleman from './assets/coleman.png';
 import personPictureImg from './assets/perfil.jpg'
 
 export const descriptionSkills = {
@@ -79,6 +80,13 @@ export const whoReceiverService = {
             img: oster,
             github: '',
             site: 'https://www.oster.com.br/'
+        },
+        {
+            title: 'Coleman',
+            description: 'Realização de manutenção na Coleman e-commerce utlizando javascript, typescript e jQuery.',
+            img: coleman,
+            github: '',
+            site: 'https://www.colemanstore.com.br/'
         },
         // {
         //     title: 'Plataforma de Streaming',
