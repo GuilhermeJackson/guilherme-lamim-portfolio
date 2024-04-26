@@ -47,6 +47,18 @@ export const providerService = {
             description: 'Esse conceito fornece uma métrica para quantificar a complexidade estrutural de um programa.',
             url: 'https://www.linkedin.com/pulse/complexidade-ciclom%25C3%25A1tica-guilherme-lamim/?trackingId=sapLpfNTTMCdJ3SX%2BhzrnQ%3D%3D'
         },
+        {
+            title: 'Dicas e Melhores Práticas para a Migração de JavaScript para TypeScript',
+            subtitle: 'Melhor maneira de migrar de Javascript para Typescript',
+            description: 'Dou ficas e falo sobre as melhores práticas para converter projetos de Javascript para Typescript',
+            url: 'https://www.linkedin.com/pulse/dicas-e-melhores-pr%C3%A1ticas-para-migra%C3%A7%C3%A3o-de-javascript-guilherme-lamim-ajckf/'
+        },
+        {
+            title: 'Observables: Simplificando o Código Assíncrono e Melhorando a Performance',
+            subtitle: 'Como Observable funciona',
+            description: 'Após me aprofundar nos Observables, nesse artigo explico como Observable pode facilitar a sua vida e por que ele vai melhorar a performace da sua aplicação baseado na minha experiencia. ',
+            url: 'https://www.linkedin.com/pulse/observables-simplificando-o-c%C3%B3digo-ass%C3%ADncrono-e-melhorando-lamim-rzref/'
+        },
     ]
 }
 

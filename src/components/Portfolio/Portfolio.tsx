@@ -16,7 +16,7 @@ function Portfolio({ title, listReceiver }: PortfolioProps) {
         <h2>{title}</h2>
       </div>
       <div className='who-receiver-list-card' >
-        {listReceiver.map((item, index) => {
+        {listReceiver.slice().reverse().map((item, index) => {
           return <div key={index} className='who-receiver-list-item'>
             <div>
               <img src={item.img} />

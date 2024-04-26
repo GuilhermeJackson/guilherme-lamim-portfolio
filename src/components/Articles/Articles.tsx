@@ -18,7 +18,7 @@ function Articles({ title, listProvider }: ArticlesProps) {
       </div>
       <div className='aticles-list-card' data-aos="fade-right" data-aos-offset="-600">
 
-        {listProvider.map((item, index) => (
+        {listProvider.slice().reverse().map((item, index) => (
           <div key={index} className='aticles-list-item'>
             <div className='aticles-list'>
               <h2>{item.title}</h2>
