@@ -1,5 +1,5 @@
 import './PersonPicture.less'
-import img from '../../assets/perfil.jpg'
+import img from '../../assets/GuilhermeLamimReactAngularJavaJavascriptTypescriptDesenvolvedor2.jpg'
 
 function PersonPicture() {
   return (
