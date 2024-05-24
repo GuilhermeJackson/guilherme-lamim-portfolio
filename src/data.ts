@@ -1,4 +1,5 @@
 import imobiliariaBerken from './assets/imobiliaria fernando berken.png';
+import decontrola from './assets/carteira primeira tela.png';
 import ticksOnePage from './assets/ticks website.png';
 import cadence from './assets/cadence.png';
 import oster from './assets/oster.png';
@@ -65,6 +66,7 @@ export const providerService = {
 export const whoReceiverService = {
     title: 'Alguns do meus trabalhos',
     listReceive: [
+        
         {
             title: 'Imobiliaria Bercken',
             description: 'Projeto em React/Typescript. Com design moderno o site conta com banco de dados firebase e funcionalidade de notificação por e-mail.',
@@ -99,6 +101,14 @@ export const whoReceiverService = {
             img: coleman,
             github: '',
             site: 'https://www.colemanstore.com.br/'
+        },
+        {
+            title: 'DeControla',
+            description: 'Projeto em React/Typescript/Java/Spring Boot. Um sistema financeiro '+
+            'moderno, prático e intuitivo para gerenciar seus gastos e ganhos do mês.',
+            img: decontrola,
+            github: '',
+            site: 'https://www.decontrola.com.br'
         },
         // {
         //     title: 'Plataforma de Streaming',
