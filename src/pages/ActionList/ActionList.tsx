@@ -9,7 +9,7 @@ function ActionList() {
       <div className='al-list-action'>
         <div className='al-title-action'>
           <h1>Guilherme Lamim</h1>
-          <h2>Desenvolvedor front-end</h2>
+          <h2>Desenvolvedor full stack</h2>
         </div>
         <div className='al-list-buttons'>
           <a href={ContactEnum.whats} target="_blank">

@@ -9,19 +9,23 @@ import personPictureImg from './assets/perfil.jpg'
 export const descriptionSkills = {
     title: 'Meus conhecimentos',
     list: [
-        'React / Typescript',
-        'Angular / Typescript',
+        'React',
+        'Angular',
+        'Typescript',
+        'Javascript',
+        'jQuery',
         'HTML / CSS',
         'Styled Component',
         'Less',
         'Ant Design NG-Zorro',
-        'Consumo de APIs REST',
+        'APIs REST',
         'Ágil / Scrum',
         'Teste unitários',
         'eCharts',
-        'Grafana',
         'Azure DevOps',
-        'Prototipação com Figma'
+        'Java',
+        'Spring Boot',
+        'PostgreSQL',
     ],
 }
 
@@ -66,7 +70,7 @@ export const providerService = {
 export const whoReceiverService = {
     title: 'Alguns do meus trabalhos',
     listReceive: [
-        
+
         {
             title: 'Imobiliaria Bercken',
             description: 'Projeto em React/Typescript. Com design moderno o site conta com banco de dados firebase e funcionalidade de notificação por e-mail.',
@@ -104,8 +108,8 @@ export const whoReceiverService = {
         },
         {
             title: 'DeControla',
-            description: 'Projeto em React/Typescript/Java/Spring Boot. Um sistema financeiro '+
-            'moderno, prático e intuitivo para gerenciar seus gastos e ganhos do mês.',
+            description: 'Projeto em React/Typescript/Java/Spring Boot. Um sistema financeiro ' +
+                'moderno, prático e intuitivo para gerenciar seus gastos e ganhos do mês.',
             img: decontrola,
             github: '',
             site: 'https://www.decontrola.com.br'
